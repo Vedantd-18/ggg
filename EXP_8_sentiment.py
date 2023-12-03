@@ -25,7 +25,7 @@ def analyze_sentiment(text):
         return 'Neutral'
 
 # Example usage
-pdf_path = 'C:/Users/Vedant Deshmukh/Documents/Final Year/NLP/EXP_2/novels/sign-of-the-four.pdf'
+pdf_path = 'Enter pdf path'
 pdf_text = extract_text_from_pdf(pdf_path)
 
 sentiment_result = analyze_sentiment(pdf_text)
